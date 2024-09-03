@@ -36,11 +36,27 @@
 │   │   │   ├── user.entity.d.ts
 │   │   │   └── user.entity.js
 │   │   ├── repositories
+│   │   │   ├── assetPrices.repository.d.ts
+│   │   │   ├── assetPrices.repository.js
+│   │   │   ├── currency.repository.d.ts
+│   │   │   ├── currency.repository.js
+│   │   │   ├── history.repository.d.ts
+│   │   │   ├── history.repository.js
+│   │   │   ├── mfa.repository.d.ts
+│   │   │   ├── mfa.repository.js
+│   │   │   ├── permission.repository.d.ts
+│   │   │   ├── permission.repository.js
+│   │   │   ├── portfolio.repository.d.ts
+│   │   │   ├── portfolio.repository.js
+│   │   │   ├── role.repository.d.ts
+│   │   │   ├── role.repository.js
+│   │   │   ├── session.repository.d.ts
+│   │   │   ├── session.repository.js
 │   │   │   ├── user.repository.d.ts
 │   │   │   └── user.repository.js
 │   │   └── services
 │   └── infrastructure
 └── tests
 
-10 directories, 30 files
+10 directories, 46 files
 ```
