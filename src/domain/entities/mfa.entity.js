@@ -1,6 +1,6 @@
 export const Method = {
-  SMS: "SMS",
-  EMAIL: "EMAIL"
+  SMS: 'SMS',
+  EMAIL: 'EMAIL'
 };
 
 

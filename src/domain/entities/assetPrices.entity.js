@@ -1,6 +1,6 @@
 export const AssetType = {
-  SHARES: "Shares",
-  CRYPTO: "Crypto"
+  SHARES: 'Shares',
+  CRYPTO: 'Crypto'
 };
 
 export class Asset {
