@@ -1,18 +1,10 @@
 export class Session {
-  constructor(
-    sessionId,
-    token,
-    createdAt,
-    expiredAt,
-    userId,
-    ipAddress,
-    isRevoked = false
-  ) {
+  constructor(sessionId, userId, token, createdAt, expiredAt, ipAddress, isRevoked) {
     this.sessionId = sessionId;
+    this.userId = userId;
     this.token = token;
     this.createdAt = createdAt;
     this.expiredAt = expiredAt;
-    this.userId = userId;
     this.ipAddress = ipAddress;
     this.isRevoked = isRevoked;
   }

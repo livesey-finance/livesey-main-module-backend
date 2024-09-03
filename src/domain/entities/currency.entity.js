@@ -1,13 +1,5 @@
 export class Currency {
-  constructor(
-    currencyId,
-    currencyCode,
-    name,
-    symbol,
-    exchangeRate,
-    decimalPlaces,
-    lastUpdated
-  ) {
+  constructor(currencyId, currencyCode, name, symbol, exchangeRate, decimalPlaces, lastUpdated) {
     this.currencyId = currencyId;
     this.currencyCode = currencyCode;
     this.name = name;

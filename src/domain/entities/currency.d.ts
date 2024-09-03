@@ -4,7 +4,7 @@ export declare class Currency {
     readonly name: string;
     readonly symbol: string;
     readonly exchangeRate: number;
-    readonly decimalPlaces: number; // Кількість десяткових знаків
+    readonly decimalPlaces: number;
     readonly lastUpdated: Date;
 
     constructor(

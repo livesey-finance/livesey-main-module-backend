@@ -1,7 +1,7 @@
 export declare class Permission {
     readonly permissionId: string;
     readonly permissionName: string;
-    readonly description?: string; // Опис дозволу
+    readonly description?: string;
 
     constructor(
         permissionId: string,

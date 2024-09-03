@@ -4,11 +4,12 @@ export declare class User {
     readonly lastName: string;
     readonly username: string;
     readonly email: string;
-    readonly passwordHash: string; // password hash
-    readonly phoneNumber?: string; // optional phone number for MFA
-    readonly roleId: string;
+    readonly passwordHash: string;
+    readonly photo?: string;
+    readonly role: Role;
     readonly isActive: boolean;
     readonly lastLoginAt?: Date;
+    readonly phoneNumber?: string;
     readonly createdAt: Date;
     readonly updatedAt: Date;
 
@@ -19,11 +20,12 @@ export declare class User {
         username: string,
         email: string,
         passwordHash: string,
-        roleId: string,
+        role: Role,
         isActive: boolean,
+        createdAt: Date,
+        updatedAt: Date,
         lastLoginAt?: Date,
         phoneNumber?: string,
-        createdAt: Date,
-        updatedAt: Date
+        photo?: string
     );
 }

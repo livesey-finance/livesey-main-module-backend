@@ -6,12 +6,13 @@ export class User {
     username,
     email,
     passwordHash,
-    roleId,
+    role,
     isActive,
+    createdAt,
+    updatedAt,
     lastLoginAt = null,
     phoneNumber = null,
-    createdAt,
-    updatedAt
+    photo = null
   ) {
     this.userId = userId;
     this.firstName = firstName;
@@ -19,11 +20,13 @@ export class User {
     this.username = username;
     this.email = email;
     this.passwordHash = passwordHash;
-    this.roleId = roleId;
+    this.role = role; // Role
     this.isActive = isActive;
-    this.lastLoginAt = lastLoginAt;
-    this.phoneNumber = phoneNumber;
     this.createdAt = createdAt;
     this.updatedAt = updatedAt;
+    this.lastLoginAt = lastLoginAt;
+    this.phoneNumber = phoneNumber;
+    this.photo = photo;
   }
 }
+
