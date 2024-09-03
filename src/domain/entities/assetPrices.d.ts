@@ -1,19 +1,17 @@
 export type AssetType = "Shares" | "Crypto";
 
-export declare class AssetPrices {
-    readonly assetPriceId: string;
-    readonly assetType: AssetType;
+export declare class Asset {
     readonly assetId: string;
-    readonly purchasePrice: number;
+    readonly assetType: AssetType;
+    readonly name: string;
     readonly currentPrice: number;
-    readonly priceDate: Date;
+    readonly currencyCode: string; // Код валюти, в якій виражена ціна активу
 
     constructor(
-        assetPriceId: string,
-        assetType: AssetType,
         assetId: string,
-        purchasePrice: number,
+        assetType: AssetType,
+        name: string,
         currentPrice: number,
-        priceDate: Date
+        currencyCode: string
     );
 }

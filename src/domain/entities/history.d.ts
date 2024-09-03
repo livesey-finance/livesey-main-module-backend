@@ -1,5 +1,3 @@
-export type AssetType = "Shares" | "Crypto";
-
 export declare class History {
     readonly changeId: string;
     readonly assetType: AssetType;
@@ -7,7 +5,9 @@ export declare class History {
     readonly portfolioId: string;
     readonly amount: number;
     readonly priceAtTransaction: number;
-    readonly currency: number;
+    readonly currencyCode: string; // Код валюти для транзакції
+    readonly transactionType: "Buy" | "Sell"; // Тип транзакції
+    readonly status: "Pending" | "Completed" | "Failed"; // Статус транзакції
     readonly transactionDate: Date;
     readonly ipAddress: string;
 
@@ -18,7 +18,9 @@ export declare class History {
         portfolioId: string,
         amount: number,
         priceAtTransaction: number,
-        currency: number,
+        currencyCode: string,
+        transactionType: "Buy" | "Sell",
+        status: "Pending" | "Completed" | "Failed",
         transactionDate: Date,
         ipAddress: string
     );

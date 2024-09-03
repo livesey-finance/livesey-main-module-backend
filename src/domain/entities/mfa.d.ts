@@ -6,12 +6,16 @@ export declare class Mfa {
     readonly isEnabled: boolean;
     readonly secretKey: string;
     readonly userId: string;
+    readonly backupCodes: string[]; // Резервні коди для відновлення доступу
+    readonly lastUsedAt?: Date; // Останнє використання MFA
 
     constructor(
         mfaId: string,
         method: Method,
         isEnabled: boolean,
         secretKey: string,
-        userId: string
+        userId: string,
+        backupCodes: string[],
+        lastUsedAt?: Date
     );
 }
