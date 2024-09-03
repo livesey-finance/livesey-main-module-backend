@@ -16,5 +16,11 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^9.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "livesey-database": "^1.0.7",
+    "livesey-routing": "^1.0.5",
+    "livesey-validation": "^1.0.2"
   }
 }
