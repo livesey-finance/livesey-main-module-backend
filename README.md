@@ -55,8 +55,17 @@
 │   │   │   ├── user.repository.d.ts
 │   │   │   └── user.repository.js
 │   │   └── services
+│   │       ├── assetPrices.service.js
+│   │       ├── currency.service.js
+│   │       ├── history.service.js
+│   │       ├── mfa.service.js
+│   │       ├── permission.service.js
+│   │       ├── portfolio.service.js
+│   │       ├── role.service.js
+│   │       ├── session.service.js
+│   │       └── user.service.js
 │   └── infrastructure
 └── tests
 
-10 directories, 46 files
+10 directories, 55 files
 ```
