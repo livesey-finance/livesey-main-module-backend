@@ -2,8 +2,6 @@ export const Method = {
   SMS: 'SMS',
   EMAIL: 'EMAIL'
 };
-
-
 export class Mfa {
   constructor(mfaId, userId, method, isEnabled, secretKey, backupCodes = [], lastUsedAt = null) {
     this.mfaId = mfaId;

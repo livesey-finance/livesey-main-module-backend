@@ -1,3 +1,5 @@
+import { User } from '../entities/user.entity.d.ts';
+
 export declare abstract class UserRepository {
     constructor();
     abstract findById(id: string): Promise<User | null>;
