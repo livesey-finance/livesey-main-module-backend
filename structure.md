@@ -20,6 +20,7 @@
 │   │   │   ├── assetPrices.entity.js
 │   │   │   ├── currency.entity.d.ts
 │   │   │   ├── currency.entity.js
+│   │   │   ├── export const assetPricesSchema = {.js
 │   │   │   ├── history.entity.d.ts
 │   │   │   ├── history.entity.js
 │   │   │   ├── mfa.entity.d.ts
@@ -66,12 +67,22 @@
 │   └── infrastructure
 │       ├── db
 │       │   ├── config
+│       │   │   └── dbConfig.js
 │       │   └── schemas
+│       │       ├── assetPrices.schema.js
+│       │       ├── currency.schema.js
+│       │       ├── history.schema.js
+│       │       ├── mfa.schema.js
+│       │       ├── permission.schema.js
+│       │       ├── portfolio.schema.js
+│       │       ├── role.schema.js
+│       │       ├── session.schema.js
+│       │       └── user.schema.js
 │       ├── external-services
 │       ├── repositories
 │       └── utils
 ├── structure.md
 └── tests
 
-16 directories, 56 files
+16 directories, 67 files
 ```
