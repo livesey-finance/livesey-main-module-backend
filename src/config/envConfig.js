@@ -4,7 +4,7 @@ dotenv.config();
 
 export const port = Numbers.parseEnvValue(process.env.PORT).isInt().getValue();
 
-//export const dbType = Strings.isString(process.env.DB_TYPE);
+export const dbType = Strings.isString(process.env.DB_TYPE).getValue();
 export const dbHost = Strings.isString(process.env.DB_HOST).getValue();
 export const dbUser = Strings.isString(process.env.DB_USER).getValue();
 export const dbPassword = Strings.isString(process.env.DB_PASSWORD).getValue();

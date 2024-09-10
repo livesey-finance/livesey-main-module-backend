@@ -8,7 +8,6 @@ import { setCorsHeaders } from './src/config/corsConfig.js';
 import { port } from './src/config/envConfig.js';
 
 
-
 // const appRouter = Router.use('/api', router);
 
 (async () => {
